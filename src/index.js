@@ -48,6 +48,20 @@ let products = [
 
 app.get('/products', (req, res) => res.json(products));
 
+app.get('/products/:id', (req, res) => {
+  const { id } = req.params;
+
+  if(!id)
+    return res.status(400).json({ error: "Param id is required !" });
+
+  const product = products.filter(item => item.id == id);
+
+  if(!(product.length))
+    return res.status(400).json({ error: "Product not found !" });
+
+  return res.json(product); 
+})
+
 app.post('/products', (req, res) => {
   const { id, name, brand, color, price, description, position, path_gtlf } = req.body;
 
