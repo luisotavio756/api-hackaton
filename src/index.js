@@ -46,7 +46,24 @@ let products = [
   }
 ];
 
-app.get('/', (req, res) => res.json(products));
+app.get('/products', (req, res) => res.json(products));
+
+app.post('/products', (req, res) => {
+  const { id, name, brand, color, price, description, position, path_gtlf } = req.body;
+
+  products.push({
+    id,
+    name,
+    brand,
+    color,
+    price,
+    description,
+    position,
+    path_gtlf
+  });
+
+  return res.json(products);
+});
 
 server.listen(process.env.PORT || 3000);
 
