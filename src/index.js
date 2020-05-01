@@ -48,6 +48,6 @@ let products = [
 
 app.get('/', (req, res) => res.json(products));
 
-server.listen(8000);
+server.listen(process.env.PORT || 3000);
 
 //
