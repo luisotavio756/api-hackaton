@@ -8,7 +8,17 @@ module.exports = {
     products.forEach(item => {
       let id = item._id;
 
-      array = {...array, [id]: item};
+      array = {...array, ['prod'+id]: {
+        id: 'prod'+item._id,
+        name: item.name,
+        brand: item.brand,
+        color: item.color,
+        price: item.price,
+        description: item.description,
+        position: item.position,
+        scale: item.scale,
+        gltf_model: item.gltf_model
+      }};
       // console.log(item);
     })
 
@@ -34,7 +44,7 @@ module.exports = {
       description,
       position,
       scale,
-      gtlf_model
+      gltf_model
     } = req.body;
 
     try {
@@ -46,7 +56,7 @@ module.exports = {
         description,
         position,
         scale,
-        "gtlf-model": gtlf_model
+        gltf_model
       });
 
       return res.json(product);
@@ -65,7 +75,7 @@ module.exports = {
       description,
       position,
       scale,
-      gtlf_model
+      gltf_model
     } = req.body;
 
     try {
@@ -79,7 +89,7 @@ module.exports = {
           description,
           position,
           scale,
-          "gtlf-model": gtlf_model
+          gltf_model
         }
       );
 
