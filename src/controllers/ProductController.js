@@ -46,7 +46,7 @@ module.exports = {
         description,
         position,
         scale,
-        gtlf_model
+        "gtlf-model": gtlf_model
       });
 
       return res.json(product);
@@ -65,7 +65,7 @@ module.exports = {
       description,
       position,
       scale,
-      path_gtlf
+      gtlf_model
     } = req.body;
 
     try {
@@ -79,7 +79,7 @@ module.exports = {
           description,
           position,
           scale,
-          path_gtlf
+          "gtlf-model": gtlf_model
         }
       );
 

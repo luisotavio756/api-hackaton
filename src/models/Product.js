@@ -29,7 +29,7 @@ const ProductSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  gtlf_model: {
+  "gtlf-model": {
     type: String,
     required: true
   },
