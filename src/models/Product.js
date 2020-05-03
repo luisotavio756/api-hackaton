@@ -21,16 +21,15 @@ const ProductSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  // [mongoose.SchemaTypes.Mixed]
   position: {
-    type: Array,
+    type: String,
     required: true
   },
   scale: {
-    type: Array,
+    type: String,
     required: true
   },
-  path_gtlf: {
+  gtlf_model: {
     type: String,
     required: true
   },

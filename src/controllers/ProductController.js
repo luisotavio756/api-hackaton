@@ -7,9 +7,12 @@ module.exports = {
 
     products.forEach(item => {
       let id = item._id;
-      array.push({ [id]: item });
+
+      array = {...array, [id]: item};
       // console.log(item);
     })
+
+    
 
     return res.json(array);
   },
@@ -31,7 +34,7 @@ module.exports = {
       description,
       position,
       scale,
-      path_gtlf
+      gtlf_model
     } = req.body;
 
     try {
@@ -43,7 +46,7 @@ module.exports = {
         description,
         position,
         scale,
-        path_gtlf
+        gtlf_model
       });
 
       return res.json(product);
