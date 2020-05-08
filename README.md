@@ -1,7 +1,18 @@
 # :heart: Megahack VTEX VR API Project
 
+This API was created for a Hackaton Project, but i allow access for us.
+We was developed with Node.js as Backend, and MondoDB as Database. This is a simple project that work more concepts of API Rest.
+Enjoy !
+
 API created with Node.js and MongoDB that to provider products data.
 You can see it running in your own browser: [Click Here](https://hackthon-vr-ecommerce.web.app/)
+
+## Steps for Run
+
+[1] - Clone project in your machine
+[2] - Run yarn install or npm install
+[3] - Config You .env with your URL access to MongoDB
+[4] - Run yarn start or npm start
 
 ## :man: Contributors (Members of the Group)
 
