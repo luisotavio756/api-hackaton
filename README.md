@@ -18,7 +18,7 @@ You can see it running in your own browser: [Click Here](https://hackthon-vr-eco
 **4** - Run yarn start or npm start
 
 
-## :man: Contributors (Members of the Group)
+## :man: Contributors (Members of the Hackaton Project)
 
 **Luan Eduardo da Costa** (Interface Developer)
 [GitHub](https://github.com/LuanEdCosta)
