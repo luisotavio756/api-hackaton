@@ -5,7 +5,10 @@ We was developed with Node.js as Backend, and MondoDB as Database. This is a sim
 Enjoy !
 
 API created with Node.js and MongoDB that to provider products data.
-You can see it running in your own browser: [Click Here](https://hackthon-vr-ecommerce.web.app/)
+Our Project was a Virtual Business, that is, a VR Business.
+
+You can see it running in your own browser: 
+[Click Here for see our VR Business](https://hackthon-vr-ecommerce.web.app/)
 
 ## Steps for Run
 
