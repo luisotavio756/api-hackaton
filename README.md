@@ -9,10 +9,14 @@ You can see it running in your own browser: [Click Here](https://hackthon-vr-eco
 
 ## Steps for Run
 
-**1** - Clone project in your machine</ br>
-**2** - Run yarn install or npm install</ br>
-**3** - Config You .env with your URL access to MongoDB</ br>
-**4** - Run yarn start or npm start</ br>
+**1** - Clone project in your machine
+
+**2** - Run yarn install or npm install
+
+**3** - Config You .env with your URL access to MongoDB
+
+**4** - Run yarn start or npm start
+
 
 ## :man: Contributors (Members of the Group)
 
