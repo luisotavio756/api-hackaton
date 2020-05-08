@@ -18,7 +18,9 @@ You can see it running in your own browser:
 
 **3** - Config You .env with your URL access to MongoDB
 
-**4** - Run yarn start or npm start
+**4** - Run yarn dev or npm dev for run with Nodemon
+
+**OBS**: This port for run, is localhost:8000. So, verif if this port not already used !
 
 
 ## :man: Contributors (Members of the Hackaton Project)
